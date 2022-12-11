@@ -1,16 +1,17 @@
 {
     "manifest_version": 3,
     "name": "CryptoCount",
-    "description":"CryptoMarket tells you 
-        the current price of top cryptocurrencies","version": "1.0.0",
+    "description": "CryptoMarket tells you the current price of top cryptocurrencies",
+    "version": "1.0.0",
     "icons": {
-        "128": "favicon.png"
+        "128": "img128x128.png"
     },
-    "browser_action": {
-        "default_icon": "favicon.png",
+    "action": {
+        "default_icon": "img128x128.png",
         "default_popup": "popup.html"
     },
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "scripting"
     ]
 }
